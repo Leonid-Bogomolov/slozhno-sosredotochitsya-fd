@@ -1,0 +1,49 @@
+@media (width >= 1024px) {
+  .header {
+    padding-block: 20px 124px;
+  }
+
+  .header__theme-menu {
+    justify-self: center;
+    margin-block: 0;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: row;
+    inline-size: auto;
+    block-size: 26px;
+  }
+
+  .title {
+    font-size: 156px;
+    margin-block-start: 182px;
+  }
+
+  .why {
+    grid-template-columns: 315px 649px;
+  }
+
+  .what {
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "title title title"
+      "multitasking food gadgets";
+  }
+
+  .how {
+    grid-template-columns: 32% 66%;
+  }
+
+  .how_walks {
+    margin-block-start: 0;
+  }
+
+  .how_reading {
+    margin-block-start: -1px;
+  }
+
+  .footer__title {
+    font-size: 157px;
+  }
+}

@@ -1,0 +1,158 @@
+@media (width >= 768px) {
+  .page {
+    gap: 60px;
+    padding-inline: 20px;
+  }
+
+  .header {
+    padding-block: calc(160px - 0.625 * (100vw - 768px))
+      calc(173px - (100vw - 768px) / 5.225);
+  }
+
+  .corner-top {
+    inset-block-start: 20px;
+  }
+
+  .corner-bottom {
+    inset-block-end: 20px;
+  }
+
+  .spec-element {
+    inset-block-start: 20px;
+  }
+
+  .header__theme-menu {
+    margin-block-start: calc(30px + (100vw - 768px) / 6.4);
+  }
+
+  .title {
+    margin-inline-start: -20px;
+  }
+
+  .header__h3 {
+    inline-size: calc(364px + (100% - 728px) * 0.4961);
+  }
+
+  .main {
+    gap: 80px;
+  }
+
+  .why {
+    inline-size: 100%;
+    grid-template-columns: 32.4% 64.84%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "title multitasking"
+      "title dopamine";
+  }
+
+  .why__h2 {
+    grid-area: title;
+  }
+
+  .why_multitasking {
+    grid-area: multitasking;
+  }
+
+  .why_dopamine {
+    grid-area: dopamine;
+  }
+
+  .what__h2 {
+    grid-area: title;
+    inline-size: 32.4%;
+  }
+
+  .what_multitasking {
+    grid-area: multitasking;
+  }
+
+  .what_food {
+    grid-area: food;
+  }
+
+  .what_gadgets {
+    grid-area: gadgets;
+  }
+
+  .how {
+    grid-template-columns: 32.4% 64.84%;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+      "title adviсe"
+      "title meditation"
+      "title music"
+      "title walks"
+      "title nutrition"
+      "title reading";
+  }
+
+  .how__h2 {
+    grid-area: title;
+  }
+
+  .how__h3 {
+    grid-area: adviсe;
+  }
+
+  .how_meditation {
+    grid-area: meditation;
+  }
+
+  .how_music {
+    grid-area: music;
+  }
+
+  .how_walks {
+    grid-area: walks;
+    margin-block-start: -1px;
+  }
+
+  .how_nutrition {
+    grid-area: nutrition;
+    margin-block-start: 2px;
+  }
+
+  .how_reading {
+    grid-area: reading;
+  }
+
+  .illustration {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "title title title"
+      "illustration_one illustration_one illustration_two"
+      "illustration_three illustration_four illustration_two"
+      "illustration_three illustration_five illustration_five";
+    gap: 20px;
+  }
+
+  .illustration > .general-text {
+    grid-area: title;
+    color: var(--h3-color);
+    background-color: var(--accent-color);
+  }
+
+  .illustration_one {
+    grid-area: illustration_one;
+  }
+
+  .illustration_two {
+    grid-area: illustration_two;
+  }
+
+  .illustration_three {
+    grid-area: illustration_three;
+  }
+
+  .illustration_four {
+    grid-area: illustration_four;
+  }
+
+  .illustration_five {
+    grid-area: illustration_five;
+  }
+}
+
+/*____________________________________________ >=1024 _________________________________________________________*/
