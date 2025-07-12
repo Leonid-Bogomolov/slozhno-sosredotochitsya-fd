@@ -21,7 +21,8 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -29,7 +30,6 @@ ul {
 
 h3 {
   font-size: 1.125rem;
-  /* letter-spacing: 0px; */
   line-height: 23.4px;
 }
 

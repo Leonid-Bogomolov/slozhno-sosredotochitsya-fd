@@ -19,28 +19,22 @@
     margin-block-start: 182px;
   }
 
-  .why {
-    grid-template-columns: 315px 649px;
-  }
-
-  .what {
-    grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(2, auto);
-    grid-template-areas:
-      "title title title"
-      "multitasking food gadgets";
-  }
-
-  .how {
+  .content-section_type_two-columns {
     grid-template-columns: 32% 66%;
   }
-
-  .how_walks {
-    margin-block-start: 0;
+  
+  .content-section_type_three-columns { 
+    display: flex;
+    flex-direction: column; 
   }
 
-  .how_reading {
-    margin-block-start: -1px;
+  .content-section_type_three-columns > .general-text {
+    inline-size: 32%;
+  }
+
+  .content-section_type_three-columns .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
   }
 
   .footer__title {

@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-color: #fff1f7; /* — для цвета фона */
+  --bg-image: url(../images/cover-image-light.png);
   --text-color: #353430; /* — для цвета текста */
   --nav-color: #353430; /* - color на кнопках смены темы*/
   --nav-color-hover: rgb(
@@ -19,14 +20,9 @@
     0.4
   ); /* - color на кнопках смены темы при наведении на них */
   --accent-color: #ff8dcb; /* — для акцентного цвета */
-  --accent-color-spec: transparent; /* - для спец-элемента */
-  --spec-element-color: transparent; /* - для спец-элемента */
   --title-color: #ffc2e6;
-  --h3-color: #353430;
-  --h2-color: #353430;
-  --how_meditation-margin: -3px;
-  --how_nutritio-margin: 3px;
-  --illustration-margin: 1px;
+  --spare-title-decor-color: #353430;
+  --title-decor-color: #353430;
   --corner-color: #353430;
 }
 
@@ -34,6 +30,7 @@
   :root {
     /* Дублируем только те же переменные, что и выше */
     --bg-color: #fff1f7; /* — для цвета фона */
+    --bg-image: url(../images/cover-image-light.png);
     --text-color: #353430; /* — для цвета текста */
     --nav-color: #353430; /* - color на кнопках смены темы*/
     --nav-color-hover: rgb(
@@ -43,14 +40,9 @@
       0.4
     ); /* - color на кнопках смены темы при наведении на них */
     --accent-color: #ff8dcb; /* — для акцентного цвета */
-    --accent-color-spec: transparent; /* - для спец-элемента */
-    --spec-element-color: transparent; /* - для спец-элемента */
     --title-color: #ffc2e6;
-    --h3-color: #353430;
-    --h2-color: #353430;
-    --how_meditation-margin: -3px;
-    --how_nutritio-margin: 3px;
-    --illustration-margin: 1px;
+    --spare-title-decor-color: #353430;
+    --title-decor-color: #353430;
     --corner-color: #353430;
   }
 }
@@ -59,3 +51,7 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-image: url(../images/cover-image-light.png);
 }
+
+.theme-light .element-absent {
+  display: none; 
+} 
