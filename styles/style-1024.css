@@ -19,20 +19,20 @@
     margin-block-start: 182px;
   }
 
-  .content-section_type_two-columns {
+  .content-section_type_mix-cascade {
     grid-template-columns: 32% 66%;
   }
   
-  .content-section_type_three-columns { 
+  .content-section_type_horizontal-cascade { 
     display: flex;
     flex-direction: column; 
   }
 
-  .content-section_type_three-columns > .general-text {
+  .content-section_type_horizontal-cascade > .general-text {
     inline-size: 32%;
   }
 
-  .content-section_type_three-columns .card-container {
+  .content-section_type_horizontal-cascade .card-container {
     display: grid;
     grid-template-columns: repeat(3, 32%);
   }

@@ -37,18 +37,18 @@
     gap: 80px;
   }
   
-  .content-section_type_two-columns {
+  .content-section_type_mix-cascade {
     inline-size: 100%;
     display: grid;
     grid-template-columns: 32.4% 64.84%;
 
   }
 
-  .content-section_type_one-columns .section__title {
+  .content-section_type_vertical-cascade .section__title {
     inline-size: 236px;
   }
  
-  .content-section_type_one-columns {
+  .content-section_type_vertical-cascade {
     inline-size: 100%;
     display: grid;
     grid-template-columns: 100%;

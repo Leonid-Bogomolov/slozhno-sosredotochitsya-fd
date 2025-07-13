@@ -11,6 +11,7 @@
   */
   --bg-color: #fff1f7; /* — для цвета фона */
   --bg-image: url(../images/cover-image-light.png);
+  --special-element-color: transparent;
   --text-color: #353430; /* — для цвета текста */
   --nav-color: #353430; /* - color на кнопках смены темы*/
   --nav-color-hover: rgb(
@@ -31,6 +32,7 @@
     /* Дублируем только те же переменные, что и выше */
     --bg-color: #fff1f7; /* — для цвета фона */
     --bg-image: url(../images/cover-image-light.png);
+    --special-element-color: transparent;
     --text-color: #353430; /* — для цвета текста */
     --nav-color: #353430; /* - color на кнопках смены темы*/
     --nav-color-hover: rgb(

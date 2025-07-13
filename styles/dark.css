@@ -11,6 +11,7 @@
   */
   --bg-color: #000028; /* — для цвета фона */
   --bg-image: url(../images/cover-image-dark.png);
+  --special-element-color:var(--accent-color);
   --text-color: #f1b2ce; /* — для цвета текста */
   --nav-color: #ff0070; /* - color на кнопках смены темы*/
   --nav-color-hover: rgba(
